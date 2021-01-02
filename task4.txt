@@ -1,0 +1,9 @@
+Task4: even last name: CFS all even niceness
+
+task 1: 10 ms + 10 ms wait + 20 ms = 40 ms exec (40 ms turn around)
+task 2: 10 ms wait + 10 ms wait + 20 ms wait + 20 ms wait + 30 ms = 90 ms (80 ms turn around)
+task 3: 10 ms wait + 10 ms = 20 ms (10 ms turn around)
+task 4: 15 ms wait + 5 ms wait + 20 ms wait + 20 ms = 60 ms (45 ms turn around)
+
+avg turn around time : 210 / 4 = 52.5 = 53ms
+avg average response time: 175 / 4 = 44ms
